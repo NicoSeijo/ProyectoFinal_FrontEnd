@@ -1,0 +1,35 @@
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+/*Body*/
+body{
+    background-image: url(../fotos/fondo_tarot_claro.png);
+}
+
+/*Header*/
+.site-heading{
+    color: #1E1C1C;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Nav*/
+#mainNav{
+    background-color: #1E1C1C;
+    color: #F3E9D9;
+}
+
+#mainNav .navbar-brand{
+    color: #F3E9D9;
+}
+
+
+.bg-faded, .footer{
+    background-color: #1E1C1C;
+    color: #F3E9D9;
+}
+
+.btn, .cta{
+    color: #1E1C1C;
+    background-color: #f7d095;
+}
