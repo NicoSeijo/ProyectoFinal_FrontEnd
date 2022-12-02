@@ -2,20 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 
-/*TEMA OSCURO/CLARO*/
+[data-theme="light"]{
+    --primario: #1E1C1C;
+    --secundario: #F3E9D9;
+    --terciario: #f7d095;
+    --imagenfondo:  url(../fotos/fondo_tarot_claro.png);
+}
 
-:root{
+
+[data-theme="dark"]{
     --primario: #F3E9D9;
     --secundario: #1E1C1C;
     --terciario: none;
     --imagenfondo:  url(../fotos/fondo_tarot_oscuro.png);
 }
 
-[tema="dark"]{
-    --primario: #1E1C1C;
-    --secundario: #F3E9D9;
-    --terciario: #f7d095;
-    --imagenfondo:  url(../fotos/fondo_tarot_claro.png);
+[data-theme='light'] .d-block-light,
+[data-theme='dark'] .d-block-dark {
+    display: block !important;
 }
 
 /*Body*/
@@ -29,15 +33,12 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
-#sliderTema{
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 /*Nav*/
 #mainNav{
     background-color: var(--primario);
     color: var(--secundario);
 }
+
 
 #mainNav .navbar-brand{
     color: var(--secundario);
@@ -49,6 +50,15 @@ body{
 
 #mainNav .navbar-nav:hover .nav-item:hover .nav-link:hover{
     color: #e6a756;
+}
+
+#botonTema{
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+
+    color:var(--secundario);
 }
 
 /*Contenido de pagina*/
