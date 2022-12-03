@@ -85,6 +85,18 @@ body{
     background-color: #e6a756;
 }
 
+#iconoWpp, #iconoEmail{
+    color: var(--secundario);
+}
+
+#iconoWpp:hover, #iconoEmail:hover{
+    color:  #e6a756;
+}
+
+.heading-contacto{
+    font-family: 'Roboto Slab', serif;
+}
+
 @media (min-width: 992px) {
     #fotoPersona{
         max-height: 65vh;
