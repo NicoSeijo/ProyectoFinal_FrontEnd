@@ -76,16 +76,6 @@ body{
     background-color:var(--terciario)
 }
 
-#fotoConsulta{
-    width: 50vw;
-    height: 70vh;
-}
-
-#fotoCurso{
-    width: 55vw;
-    height: 80vh;
-}
-
 /*Contacto*/
 #botonContacto{
     color: #1E1C1C;
@@ -118,4 +108,44 @@ body{
         max-height: 85vh;
         max-width: 50vw;
     }
+
+    #fotoConsulta{
+        width: 50vw;
+        height: 70vh;
+    }
+    
+    #fotoCurso{
+        width: 55vw;
+        height: 80vh;
+    }
+    
+    #spanContacto{
+        margin-top:2.5%;
+    }
+    
+
 }
+
+@media (max-width: 992px){
+    #fotoConsulta{
+        height: 60vh;
+        width: 100vw;
+    }
+    
+    #headingCursos, #headingConsulta{
+        width: 100vw;
+    }
+
+    #fotoCurso{
+        height: 60vh;
+        width: 100vw;
+    }
+
+    #spanContacto{
+        font-size:2rem;
+        margin-top:5%;
+    }
+    
+
+}
+
