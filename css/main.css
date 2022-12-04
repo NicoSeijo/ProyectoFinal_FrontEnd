@@ -76,6 +76,17 @@ body{
     background-color:var(--terciario)
 }
 
+#fotoConsulta{
+    width: 50vw;
+    height: 70vh;
+}
+
+#fotoCurso{
+    width: 55vw;
+    height: 80vh;
+}
+
+/*Contacto*/
 #botonContacto{
     color: #1E1C1C;
     background-color: #f7d095;
