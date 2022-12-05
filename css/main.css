@@ -137,8 +137,13 @@ body{
         width: 100vw;
     }
     
-    #headingCursos, #headingConsulta{
+    #headingSesiones, #headingFormaciones, #headingCursos{
         width: 100vw;
+    }
+
+    .section-heading-lower{
+        font-size: 2rem !important;
+        max-width: 50vw;
     }
 
     #fotoCurso{
