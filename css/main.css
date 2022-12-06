@@ -137,13 +137,12 @@ body{
         width: 100vw;
     }
     
-    #headingSesiones, #headingFormaciones, #headingCursos{
+    .headingSv{
         width: 100vw;
     }
 
     .section-heading-lower{
-        font-size: 2rem !important;
-        max-width: 50vw;
+        font-size: 1.5rem !important;
     }
 
     #fotoCurso{
@@ -155,7 +154,5 @@ body{
         font-size:2rem;
         margin-top:5%;
     }
-    
-
 }
 
