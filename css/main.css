@@ -7,6 +7,7 @@
     --secundario: #F3E9D9;
     --terciario: #f7d095;
     --imagenfondo:  url(../fotos/fondo_tarot_claro.png);
+    --colorfondo: #F3E9D9;
 }
 
 
@@ -15,6 +16,7 @@
     --secundario: #1E1C1C;
     --terciario: none;
     --imagenfondo:  url(../fotos/fondo_tarot_oscuro.png);
+    --colorfondo: #1E1C1C;
 }
 
 [data-theme='light'] .d-block-light,
@@ -132,6 +134,11 @@ body{
 }
 
 @media (max-width: 992px){
+    body{
+        background-image: none;
+        background-color: var(--colorfondo);
+    }
+
     #fotoConsulta{
         height: 60vh;
         width: 100vw;
@@ -154,5 +161,7 @@ body{
         font-size:2rem;
         margin-top:5%;
     }
+
+    
 }
 
